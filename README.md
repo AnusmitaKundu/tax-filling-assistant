@@ -6,7 +6,9 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-![Uploading image.png…]()
+
+![Screenshot 2025-03-30 094126](https://github.com/user-attachments/assets/3d8bd5c6-4f3a-431c-ae70-27acc97433a7)
+
 
 ## Expanding the ESLint configuration
 
