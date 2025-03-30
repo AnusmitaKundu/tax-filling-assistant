@@ -1,0 +1,59 @@
+@import './variables.css';
+@import './chat.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: #fff;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.tax-assistant-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.tax-assistant-header {
+  padding: 15px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tax-assistant-header h1 {
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.progress-container {
+  margin-top: 15px;
+  background-color: var(--light-gray);
+  border-radius: 20px;
+  height: 10px;
+  position: relative;
+}
+
+.progress-bar {
+  background-color: var(--success-color);
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  font-size: 14px;
+  color: var(--text-color);
+}
